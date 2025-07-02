@@ -1,0 +1,84 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.bg-custom {
+    background-color: #1c2d59 !important;
+}
+
+.navbar-custom-link {
+    gap:1.5px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0.5px solid white;
+    padding: 2px 15px;
+    border-radius: 5px 15px 5px 15px;
+    color: white !important;
+    text-decoration: none;
+}
+
+
+
+.icon-shape {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.icon-circle {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+    .icon-circle.top {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #6abf4b; /* verde */
+    }
+
+    .icon-circle.left {
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        background-color: #008CFF; /* celeste */
+    }
+
+    .icon-circle.right {
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        background-color: #008CFF;
+    }
+
+    .icon-circle.bottom {
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #008CFF;
+    }
+
